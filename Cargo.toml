@@ -1,0 +1,13 @@
+[package]
+name = "pingstats"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4", features = ["derive"] }
+ratatui = "0.26"
+crossterm = "0.27"
+pnet = "0.34.0"
+rand = "0.8"
+chrono = { version = "0.4", features = ["std", "clock"] }#   update dependency @ 2025-06-14T08:52:53.000Z
